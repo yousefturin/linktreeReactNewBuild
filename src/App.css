@@ -158,6 +158,7 @@ body {
   width: 100%;
   height: 100%;
   gap: 1rem;
+  position: relative;
 }
 
 .animated-link {
@@ -251,6 +252,35 @@ body {
   transition: transform 0.5s ease-out, opacity 0.5s ease-out;
 }
 
+.btnBack{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 0.6rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.btnBack:hover {
+  background-color: rgba(215, 242, 255, 0.705);
+}
+.btnBack:hover {
+  background-color: rgba(215, 242, 255, 0.705);
+}
+
+.btnBack::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: rotate(0deg);
+  height: 2px;
+  background-color: rgb(48, 48, 48);
+  transition: transform 0.3s;
+}
+
+.btnBack.clicked::before {
+  transform: rotate(360deg);
+}
 .footer.animate {
   transform: translateY(0);
   /* Slide in to its place */
