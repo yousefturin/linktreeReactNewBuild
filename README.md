@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# What is links tree collector
+it's a small web application that you can place all your links in one website, this is a new version, using React JS 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="https://github.com/yousefturin/links_tree_collector/assets/94796673/a1a11989-ed96-4b0a-b865-b6800e91c218">
 
-## Available Scripts
+# To use this web application
+### Replace the image
+First, you need to upload your image to 
+        
+        static/images
 
-In the project directory, you can run:
+### Update the HTML file 
+Second, you need to open the HTML file from 
 
-### `npm start`
+        templates/main.html
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Copy your image name 
+Change the image name in the code 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+        <img src="/static/images/IMG_8056.png" alt="Image Description">
+**To**
 
-### `npm test`
+        <img src="/static/images/your_image.png" alt="Image Description">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Copy your GitHub URL
+        <a style="text-decoration:none" href="https://github.com/yousefturin" class="animated-link">
+        
+**and replace this code to:**
 
-### `npm run build`
+        <a style="text-decoration:none" href="https://github.com/your_url" class="animated-link">
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Copy your Linkedin URL
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+        <a style="text-decoration:none" href="https://www.linkedin.com/in/yusef-rayyan/" class="animated-link">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**and replace this code to:**
 
-### `npm run eject`
+        <a style="text-decoration:none" href="https://www.linkedin.com/in/your_url/" class="animated-link">
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Copy your Instagram URL
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+        <a style="text-decoration:none" href="https://www.instagram.com/yusefturin/" class="animated-link">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**and replace this code to:**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+        <a style="text-decoration:none" href="https://www.instagram.com/your_url/" class="animated-link">
 
-## Learn More
+### Copy your Portfolio URL
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+        <a style="text-decoration:none;" href="https://yusefturin.netlify.app/" class="animated-link">
 
-### Code Splitting
+**and replace this code to:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+        <a style="text-decoration:none;" href="https://your_url_to_Portfolio/" class="animated-link">
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
